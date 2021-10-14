@@ -49,6 +49,9 @@ $echo ls -a 0> testfile.txt | cat testfile.txt
 9)
 Что выведет команда cat /proc/$$/environ? Как еще можно получить аналогичный по содержанию вывод?
 
+cat /proc/$$/environ
+USER=vagrantLOGNAME=vagrantHOME=/home/vagrantPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/binSHELL=/bin/bashTERM=xterm-256colorXDG_SESSION_ID=4XDG_RUNTIME_DIR=/run/user/1000DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/busXDG_SESSION_TYPE=ttyXDG_SESSION_CLASS=userMOTD_SHOWN=pamLANG=en_US.UTF-8LANGUAGE=en_US:SSH_CLIENT=10.0.2.2 61205 22SSH_CONNECTION=10.0.2.2 61205 10.0.2.15 22SSH_TTY=/dev/pts/0v
+
 nano /proc/$$/environ сохранить с другим названием.
 
 10)
